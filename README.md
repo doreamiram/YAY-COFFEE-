@@ -29,3 +29,16 @@ The **YAY COFFEE!** system follows the MVC (Model-View-Controller) architecture:
 - **View**: Defines HTML templates that display data and interact with users.
 - **Controller**: The Flask app (`app.py`) routes user requests to the correct functionality and templates.
 
+
+## Screenshots
+Login screen where users enter credentials to access the system.
+![תמונה של WhatsApp‏ 2024-10-29 בשעה 14 15 07_0a114cfb](https://github.com/user-attachments/assets/05a0d792-acba-47e9-bc7b-e102aed8c099)
+
+Admin screen to add new menu items.
+![תמונה של WhatsApp‏ 2024-10-29 בשעה 14 16 48_c27dbf47](https://github.com/user-attachments/assets/75282c0a-5595-4a06-87b2-9ed0519ec44b)
+
+Customer screen to place a new order.
+![תמונה של WhatsApp‏ 2024-10-29 בשעה 14 15 43_0a293183](https://github.com/user-attachments/assets/253f1b7a-a3d2-4e50-a8b2-95e2ad8506b4)
+
+Operator screen to view and close open orders.
+![תמונה של WhatsApp‏ 2024-10-29 בשעה 14 17 24_d0d4e659](https://github.com/user-attachments/assets/e8ead756-c51b-48ae-a280-7a4ddb5a1045)
