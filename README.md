@@ -42,4 +42,4 @@ The **YAY COFFEE!** system follows the MVC (Model-View-Controller) architecture:
 ![Order Handling](screenshots/order_handling.png)
 *Operator screen to view and close open orders.*
 
-## Project Structure
+
