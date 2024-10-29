@@ -1,0 +1,568 @@
+/* Login Form Styling
+#content {
+    margin: 30px auto;
+    padding: 20px;
+    background: #f5f1e6;
+    border: 1px solid #d5b084;
+    width: 300px;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-family:0;
+    color: #db9e29;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    color: #3c200b;
+	
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d5b084;
+    font-family: 'open_sansregular';
+    font-size: 14px;
+    color: #3c200b;
+    background: #f5f1e6;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background: #db9e29;
+    color: #fff;
+    border: none;
+    font-family: 'UltraRegular';
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #a2b83c;
+}
+
+/* Centering the form on the screen */
+.login-form {
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+	transform: translateX(20%);
+}
+
+.login-form-group {
+    margin-bottom: 15px;
+}
+
+.login-form-group label {
+    display: block;
+    font-size: 16px; /* Increased font size */
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.login-form-group input {
+    width: 70%;
+    padding: 10px; /* Increased padding */
+    font-size: 16px; /* Increased font size */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: #555;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px; /* Increased padding */
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px; /* Increased font size */
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#content {
+    display: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#footer .section ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px; /* Increased font size */
+}
+
+#footer .section ul li {
+    display: inline;
+    margin: 0 5px;
+}
+
+#footer .section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer .section ul li.current a {
+    font-weight: bold;
+}
+
+#footer #connect a {
+    color: white;
+    text-decoration: none;
+    margin: 0 3px;
+    font-size: 14px; /* Increased font size */
+}
+
+#footer #connect a:hover {
+    text-decoration: underline;
+}
+
+/* Style for admin page */
+.admin-form {
+    width: 300px;
+    margin: auto;
+	margin-right: 10%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+	transform: translateX(21%);
+	border: none; /* מסיר את כל הגבולות מהטופס */
+    box-shadow: none; /* מסיר צל אם יש כזה שמקיף את הטופס */
+	
+}
+
+.admin-form h2 {
+    margin-bottom: 20px;
+	margin-left: 50px !important;
+    color: #333;
+	transform: translateX(-4%);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #333;
+	margin-left: -5px; /* העברת התוכן מעט שמאלה */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+	border: none; /* הסרת הגבול */
+    transition: box-shadow 0.3s ease;
+
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: #555;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footer .footnote {
+    font-size: 14px;
+    color: #999;
+}
+
+#footer .section {
+    margin-top: 20px;
+}
+
+#footer .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .section ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footer .section ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#footer #connect a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#footer #connect a:hover {
+    color: #FFD700;
+}
+
+
+
+
+.admin-page #page div {
+    background: none;
+    padding: initial;
+    width: auto;
+}
+
+
+/* הסטייל לדף ה-admin */
+#admin-page div {
+    background: none;
+    padding: 0;
+    width: 940px; /* אם נדרש, הוסף כאן את הגובה */
+}
+
+
+
+
+/* מתפעל עיצוב */
+
+#operator-page #content {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #f2f2f2;
+}
+
+.orders-table td {
+    background-color: #fff;
+}
+
+.orders-table button {
+    padding: 8px 12px;
+    background-color: #FFD700;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.orders-table button:hover {
+    background-color: #FFA500;
+}
+
+/* עיצוב דף סרגל כותרת לקוח */
+
+#page div div#header ul li a {
+	color: #db9e29;
+	display: block;
+	font-family: 'UltraRegular';
+	font-size: 16px;
+	text-decoration: none;
+}
+/* Style for Customer Page */
+#body.customer-page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8; /* Light background for the customer page */
+}
+
+#content1 {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    background-color: #fff; /* White background for form container */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+	transform: translateX(0%); /* להזיז ימינה ב-10% */
+}
+
+.review-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* לשמירה על מיקום הכותרת באמצע */
+	transform: translateX(10%); /* להזיז ימינה ב-8% */
+}
+.review-section {
+    margin-top: 40px;
+	max-width: 800px; /* Set a max width similar to the order form */
+   
+}
+
+h2 {
+    color: #333; /* Dark text color for headers */
+    font-size: 1.5em;
+    margin-bottom: 20px;
+	text-align: center;
+	transform: translateX(0%); /* להזיז ימינה ב-10% */
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+	text-align: center;
+	transform: translateX(10%);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+select 
+	input[type="file"] {
+		max-width: 100%; /* Ensure it doesn't overflow */
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+button.btn {
+    background-color: #333; /* Dark background for buttons */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button.btn:hover {
+    background-color: #555; /* Darker on hover */
+}
+
+/* Additional styling for form submission sections */
+form {
+    margin-bottom: 30px;
+}
+
+/* עיצוב תיבת הבחירה של תפריט המוצרים */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    
+	appearance: auto;
+    /* לא נוגעים בהגדרת appearance כדי לשמור על החץ המובנה */
+}
+
+/* בעת מיקוד (כאשר המשתמש לוחץ על התיבה) */
+select:focus {
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-color: #555;
+}
+
+/* עיצוב כללי לטפסים */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+textarea#review-text {
+    width: 70%; /* ניתן לשנות ל-100% כדי שתתאים לקונטיינר, או לקבוע מספר קבוע */
+    max-width: 600px; /* כאן אתה מגדיר רוחב מקסימלי */
+    height: 100px; /* גובה התיבה - ניתן לשנות לפי הצורך */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select#rating {
+    width:70%; /* רוחב קבוע לתיבת הבחירה */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input#review-photo {
+    width: 70%; /* רוחב קבוע לתיבת העלאת התמונה */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    width: 70%; /* קביעת רוחב הכפתור */
+    padding: 10px;
+    background-color: #333; /* צבע הרקע */
+    color: #fff; /* צבע הטקסט */
+    border: none;
+    border-radius: 4px; /* פינות מעוגלות */
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button.btn:hover {
+    background-color: #555; /* צבע רקע כהה יותר במעבר עכבר */
+}
+
+
+טיוטא css
+/* 
+סגנון דף מנהל */
+.admin-form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form-group {
+    margin-bottom: 15px;
+    text-align: center;
+    transform: translateX(0%);
+}
+
+.admin-form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.admin-form-group input,
+.admin-form-group textarea {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    margin: 0 auto;
+    display: block;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.btn {
+    width: 90%;
+    max-width: 400px;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto 0;
+    display: block;
+}
+
+.btn:hover {
+    background-color: #555;
+} 
+/* dvd */

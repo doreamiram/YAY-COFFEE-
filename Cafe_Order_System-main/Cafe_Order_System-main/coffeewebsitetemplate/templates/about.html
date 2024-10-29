@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>About - YAY COFFEE!</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+<body>
+	<div id="page">
+		<div>
+			<div id="header">
+				<a href="{{ url_for('index') }}"><img src="../static/images/logo.png" alt="YAY COFFEE! Logo"></a>
+				<ul>
+					<li>
+						<a href="{{ url_for('index') }}">Home</a>
+					</li>
+					<li>
+						<a href="{{ url_for('menu') }}">Menu</a>
+					</li>
+					<li class="current">
+						<a href="{{ url_for('about') }}">About Us</a>
+					</li>
+					<li>
+						<a href="{{ url_for('login') }}">Login</a>
+					</li>
+				</ul>
+			</div>
+			<div id="body">
+				<div id="figure">
+					<img src="../static/images/headline-about.jpg" alt="About YAY COFFEE!">
+					<span>Crafting the perfect cup, one bean at a time.</span>
+				</div>
+				<div>
+					<a href="about.html" class="about">About</a>
+					<div>
+						<h3>Welcome to YAY COFFEE!</h3>
+						<p>
+							At YAY COFFEE!, we believe in serving only the finest coffee, responsibly sourced and roasted to perfection. Located in the heart of Tel Aviv, our cozy spot is perfect for relaxing, working, or catching up with friends over a delicious cup of coffee.
+						</p>
+						<h3>Our Passion for Coffee</h3>
+						<p>
+							Every cup we serve at YAY COFFEE! reflects our commitment to quality. Whether you're enjoying a classic espresso or one of our unique blends, we want your experience to be exceptional every time.
+						</p>
+						<h3>Join Our Community</h3>
+						<p>
+							We’re more than just a coffee shop – we’re a community hub. Follow us on social media to stay updated on our latest offerings, events, and promotions. We'd love to connect with you and hear your feedback.
+						</p>
+						<h3>Visit Us</h3>
+						<p>
+							You can find us at 2 HaYarkon Street, Tel Aviv. YAY COFFEE! is your neighborhood spot for great coffee, a warm ambiance, and friendly service. We look forward to welcoming you!
+						</p>
+						<p>
+							If you have any questions or special requests, don't hesitate to reach out. We're here to serve you!
+						</p>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div>
+					<a href="index.html"><img src="../static/images/logo2.png" alt="YAY COFFEE! Logo"></a>
+					<p class="footnote">
+						&copy; YAY COFFEE! 2024.<br>All Rights Reserved.
+					</p>
+				</div>
+				<div class="section">
+					<ul>
+                        <li>
+                            <a href="{{ url_for('index') }}">Home</a>
+                        </li>
+                        <li>
+                            <a href="{{ url_for('menu') }}">Menu</a>
+                        </li>
+                    
+                        <li>
+                            <a href="{{ url_for('about') }}">About Us</a>
+                        </li>
+                    </ul>
+					<div id="connect">
+						<a href="https://www.facebook.com/YAYCOFFEE" target="_blank" id="facebook">Facebook</a>
+						<a href="https://www.twitter.com/YAYCOFFEE" target="_blank" id="twitter">Twitter</a>
+						<a href="https://www.instagram.com/YAYCOFFEE" target="_blank" id="instagram">Instagram</a>
+					</div>
+					<p>
+						YAY COFFEE! was created with a passion for quality coffee and a commitment to our community. We invite you to experience our warm hospitality and exceptional brews. If you need any help, don't hesitate to reach out to us.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
